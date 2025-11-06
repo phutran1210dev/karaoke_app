@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎤 Kawaii Karaoke - Cute Dancing Girl
 
-## Getting Started
+A magical karaoke app featuring a beautiful 3D dancing girl character built with Three.js, React, and Next.js!
 
-First, run the development server:
+## ✨ Features
 
+### 🌸 **Beautiful 3D Girl Character**
+- Stunning anime-style character with:
+  - Elaborate hair with twin tails and accessories
+  - Beautiful gradient materials with emissive lighting
+  - Large expressive anime eyes with shine effects
+  - Layered dress with ruffles and magical sparkles
+  - Graceful proportions and cute accessories
+
+### 🎵 **YouTube Integration**
+- Paste any YouTube URL to load music
+- Custom cute controls with heart-shaped buttons
+- Real-time playback synchronization
+- Hidden YouTube player with custom interface
+
+### 💃 **Dynamic Animations**
+- **Dancing Mode**: Energetic full-body dance moves
+- **Singing Mode**: Gentle head bobbing and swaying
+- **Excited Mode**: Bouncy movements with sparkles
+- **Idle Mode**: Subtle floating and breathing animations
+
+### 🎨 **Magical Visual Effects**
+- 800+ magical floating particles
+- Multi-layer lighting system with rim lighting
+- Auto-rotating camera when idle
+- Sparkly star field background
+- Dynamic spotlight when dancing
+
+### 🌈 **Pink Pastel Theme**
+- Kawaii color scheme with pastels
+- Custom Tailwind configuration
+- Comic Neue and Quicksand fonts
+- Cute animations and transitions
+
+### 🏗️ **Atomic Design Architecture**
+- **Atoms**: Button, Input, Card, Icon, CuteGirl, MagicalParticles
+- **Molecules**: YouTubePlayer, LyricsDisplay
+- **Organisms**: ThreeScene
+- **Pages**: Main karaoke interface
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js**: Version 20.0.0 or higher (recommended: 20.19.4)
+- **npm**: Version 8.0.0 or higher
+
+You can check your versions with:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+node --version
+npm --version
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If using nvm, you can use the project's Node.js version:
+```bash
+nvm use
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Learn More
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Paste a YouTube URL and start singing! 🎤
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎮 Controls
 
-## Deploy on Vercel
+- **Camera**: Drag to rotate, scroll to zoom
+- **Auto-rotate**: Automatically rotates when music is paused
+- **Play/Pause**: Click the heart button to control playback
+- **YouTube URL**: Paste any YouTube link to load music
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Technologies
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js 16** - React framework
+- **Three.js** - 3D graphics
+- **React Three Fiber** - React bindings for Three.js
+- **React Three Drei** - Useful helpers for R3F
+- **Tailwind CSS** - Utility-first CSS
+- **TypeScript** - Type safety
+- **YouTube API** - Video integration
+
+## 🎨 Character Design
+
+The beautiful girl character features:
+- Soft pink and lavender color palette
+- Emissive materials for magical glow
+- Detailed hair with flowing animations
+- Layered dress with particle effects
+- Anime-style eyes with realistic shine
+- Graceful proportions and movements
+
+## 🎵 Animation System
+
+The character responds to music with:
+- Beat-synchronized dancing
+- Mood-based animation states
+- Smooth transitions between poses
+- Particle effects that pulse with music
+- Dynamic lighting changes
+
+Enjoy your kawaii karaoke experience! 💖✨
